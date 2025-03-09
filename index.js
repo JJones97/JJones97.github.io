@@ -73,5 +73,6 @@ particlesJS("background", {
     },
 
     retina_detect: true,
+    
 
-})
+});
