@@ -90,7 +90,28 @@ ul {
     margin-top: 6rem;
 }
 
+.profile {
+
+    font-size: 1.3rem;
+    margin-left: 1.3rem;
+    font-weight: bold;
+    text-transform: unset;
+    color: #fff;
+}
+
 .footer p {
     color: #fff;
     font-size: 1.3rem;
+}
+
+button {
+    color: #fff;
+    font-size: 1.2rem;
+    text-transform:none;
+    font-weight:bold;
+    border: 0;
+    border-radius: 20px;
+    background-color: #e91e63;
+    padding: 1px 6px 1px;
+    margin-left: 35%;
 }
