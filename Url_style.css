@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #e0f7ff;
+    background: radial-gradient(circle at 20% 30%, #add8e6 0%, transparent 40%),
+        radial-gradient(circle at 80% 20%, #87cefa 0%, transparent 50%),
+        radial-gradient(circle at 50% 70%, #4682b4 0%, transparent 60%),
+        radial-gradient(circle at 30% 80%, white 0%, transparent 50%),
+        radial-gradient(circle at 70% 60%, #b0e0e6 0%, transparent 40%)
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    padding: 20px 30px;
+    border: 2px solid;
+    border-color: #1e2a38;
+    text-align: center;
+    min-width: 400px;
+    backdrop-filter: blur (10px);
+    -webkit-backdrop-filter: blur(2px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.185);
+}
+
+.container i {
+    font-size: 100px;
+    margin-bottom: 10px;
+    color: #1e2a38;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #1e2a38
+}
+
+label {
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 10px 0;
+    color: #1e2a38;
+    display: block;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 2px solid #1e2a38;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #1e2a38;
+    background-color: transparent;
+    font-weight: 500px;
+}
+
+input ::placeholder {
+    color: #1e2a38;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    width: 100%;
+    color: #1e2a38;
+    border: 2px solid #1e2a38;
+    border-radius: 5px;
+    padding: 8px;
+    font-weight: 500;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+
+button:hover {
+    background-color:#1e2a38;
+    color: #fff;
+}
+
+textarea{
+    resize: none;
+}
